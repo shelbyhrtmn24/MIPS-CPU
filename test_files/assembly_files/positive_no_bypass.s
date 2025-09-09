@@ -1,6 +1,5 @@
 nop 			# Basic Arithmetic Test with no Hazards
 nop 			# Values initialized using addi (positive only) and sub
-nop 			# Author: Oliver Rodas
 nop
 nop
 nop 			# Initialize Values
