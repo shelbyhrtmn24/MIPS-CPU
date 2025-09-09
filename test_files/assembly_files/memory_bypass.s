@@ -1,5 +1,4 @@
 nop             # Values initialized using addi (positive only)
-nop             # Author: Oliver Rodas
 nop
 nop
 nop             # Basic Bypassing to Memory

@@ -3,7 +3,6 @@ nop 				# Advanced Control Test with Bypassing
 nop 				# Values initialized using addi (positive only)
 nop 				# Registers 10,11 track correct and 20,21 track incorrect
 nop 				# Values in the first two tests be updated if the number of lines is modified
-nop 				# Author: Nathaniel Brooke
 nop
 nop
 nop 				    # Test Bypassing into JR

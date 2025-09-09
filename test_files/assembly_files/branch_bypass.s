@@ -1,4 +1,4 @@
-				# Efficiency Test 3: Bypassing into Branch (with loops)
+				# Efficiency Test: Bypassing into Branch (with loops)
 nop
 nop 	
 nop

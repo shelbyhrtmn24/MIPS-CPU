@@ -1,6 +1,6 @@
 
 nop 	                # Simple blt test case without bypassing
-nop                     # Author: Unknown, Modified by Will Denton
+nop                    
 nop 
 nop
 nop

@@ -1,5 +1,5 @@
 nop            # Specifically tests add into lw
-nop            # Author: Philip Xue
+nop            
 nop
 nop            # EDGE CASE: bypassing ALU result to address calculation for lw
 nop

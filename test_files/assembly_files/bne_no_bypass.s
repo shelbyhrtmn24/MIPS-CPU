@@ -1,6 +1,6 @@
 
 nop 	                # Simple bne test case no bypassing
-nop                     # Author Unknown, Modified by Will Denton
+nop                    
 nop     
 nop
 nop

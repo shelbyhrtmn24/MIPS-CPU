@@ -1,6 +1,6 @@
 
 nop 			    # Simple bex and setx test case without bypassing
-nop                 # Author: Unknown, Modified by Will Denton
+nop                
 nop 
 nop
 nop

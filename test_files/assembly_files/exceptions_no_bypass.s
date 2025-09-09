@@ -1,5 +1,4 @@
 nop                     # Exception testing
-nop                     # Author: Jack Proudfoot, Modified by Will Denton
 nop
 nop
 nop             

@@ -1,6 +1,5 @@
 nop             # setx bypassing test
 nop             # tests incorrect and correct branching of bex if a setx happens right before
-nop             # Author: Vincent Chen
 nop             
 nop
 setx 5        

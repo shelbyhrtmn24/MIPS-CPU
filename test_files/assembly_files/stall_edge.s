@@ -1,5 +1,4 @@
 nop             # Values initialized using addi (positive only)
-nop             # Author: Oliver Rodas
 nop
 nop
 nop             # EDGE CASE: Stalling 1 cycle for lw to ALUop

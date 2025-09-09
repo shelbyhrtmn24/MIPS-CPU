@@ -1,4 +1,5 @@
 # MIPS‑CPU: 32‑Bit Pipelined MIPS CPU with Test Cases
+# Shelby Hartman
 
 Verilog-based implementation of a 32-bit 5-stage-pipelined MIPS CPU, complete with test benches for functional validation.
 

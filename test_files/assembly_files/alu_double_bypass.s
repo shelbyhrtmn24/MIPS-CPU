@@ -1,5 +1,5 @@
 nop             # Values initialized using addi (positive only)
-nop             # Author: Oliver Rodas
+nop            
 nop
 nop
 nop             # Bypassing 2 values to ALU
