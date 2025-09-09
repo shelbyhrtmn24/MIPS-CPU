@@ -1,5 +1,4 @@
 nop             # Values initialized using addi (positive only)
-nop             # Author: Oliver Rodas
 nop
 nop             # Multdiv without Bypassing
 nop 			# Multdiv Tests
