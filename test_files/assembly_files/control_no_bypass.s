@@ -2,7 +2,6 @@ nop                     # Basic Control Test with no Data Hazards
 nop                     # Values initialized using addi (positive only) and sub
 nop                     # Registers 10,11 track correct and 20-23 track incorrect
 nop                     # Values and comments in the test of JR must be updated if code modified.
-nop                     # Author: Nathaniel Brooke, Modified by Will Denton
 nop
 nop                     # Initialize Values
 addi $r1, $r0, 4		# r1 = 4
