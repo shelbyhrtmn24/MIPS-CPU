@@ -9,4 +9,3 @@ Addition and subtraction are done by a two-level CLA. This is split across two m
 
 The main ALU also determines the isNotEqual, overflow, and isLessThan signals. isNotEqual is determined with a 32-input or gate using the output of subtraction. Overflow is determined by checking if the most-significant bits of operands A and B match and if the most-significant bit of the result is different through a series of and, or, and not gates. Whether to use B or -B, as well as whether to use the result of addition or subtraction, is determined by a 2-input MUX with the least-significant bit of the opcode as a selector. isLessThan is determined by checking the most-significant bit of the subtraction output compared with the overflow output. If A[31] and B[31] are both 0's and result[31] is 1, then it is considered a positive overflow. A negative overflow is the opposite. The logic equation: data_sub[31]!pos_ovf + !data_sub[31]neg_ovf determines isLessThan. 
 
-## Bugs
