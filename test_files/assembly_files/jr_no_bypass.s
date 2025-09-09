@@ -1,5 +1,4 @@
 nop 	                # simple jr test case
-nop                     # Author Unknown, Modified by Will Denton
 nop 
 nop
 nop
