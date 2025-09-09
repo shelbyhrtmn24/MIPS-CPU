@@ -1,22 +1,3 @@
-/**
- * READ THIS DESCRIPTION!
- *
- * This is your processor module that will contain the bulk of your code submission. You are to implement
- * a 5-stage pipelined processor in this module, accounting for hazards and implementing bypasses as
- * necessary.
- *
- * Ultimately, your processor will be tested by a master skeleton, so the
- * testbench can see which controls signal you active when. Therefore, there needs to be a way to
- * "inject" imem, dmem, and regfile interfaces from some external controller module. The skeleton
- * file, Wrapper.v, acts as a small wrapper around your processor for this purpose. Refer to Wrapper.v
- * for more details.
- *
- * As a result, this module will NOT contain the RegFile nor the memory modules. Study the inputs 
- * very carefully - the RegFile-related I/Os are merely signals to be sent to the RegFile instantiated
- * in your Wrapper module. This is the same for your memory elements. 
- *
- *
- */
 module processor(
     // Control signals
     clock,                          // I: The master clock
@@ -60,8 +41,6 @@ module processor(
 	output [4:0] ctrl_writeReg, ctrl_readRegA, ctrl_readRegB;
 	output [31:0] data_writeReg;
 	input [31:0] data_readRegA, data_readRegB;
-
-	/* YOUR CODE STARTS HERE */
 
     //------------------------------------------ FETCH STAGE ----------------------------------------------
     wire [31:0] PC, next_PC, PC_plus;
@@ -207,7 +186,5 @@ module processor(
     pc_controls pc_ctrl_unit(.DX_PC_out(DX_PC_out), .DX_IR_out(DX_IR_out), .DX_A_out(data_operandA), .immed(sign_extended_immed), .alult(ALU_lt), 
         .aluneq(ALU_neq), .ctrl_PC(ctrl_PC), .branch_jump_taken(branch_jump_taken));
     assign next_PC = branch_jump_taken ? ctrl_PC : PC_plus;
-
-	/* END CODE */
 
 endmodule
