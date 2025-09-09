@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Fri Feb 21 15:30:14 2025
+[*]
+[dumpfile] "C:\Users\shelb\Downloads\ECE 350\processor_toolchain\gtkwave_lab_test_files\output_files\gtkwave_lab_test_files\output_files\addi.vcd"
+[savefile] "C:\Users\shelb\Downloads\ECE 350\processor_toolchain\gtkwave_lab_test_files\output_files\addi.gtkw"
+[timestart] 0
+[size] 1000 920
+[pos] 810 -113
+*-18.152435 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Wrapper_tb.
+[sst_width] 288
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 266
+@28
+Wrapper_tb.clock
+@22
+Wrapper_tb.CPU.address_imem[7:0]
+@23
+Wrapper_tb.CPU.xwo_out[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,61 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Fri Mar 21 01:44:11 2025
+[*]
+[dumpfile] "C:\Users\shelb\Downloads\ECE 350\processor_toolchain\test_files\output_files\test_files\output_files\multdiv_no_bypass_slow.vcd"
+[savefile] "C:\Users\shelb\Downloads\ECE 350\processor_toolchain\test_files\output_files\pain_and_suffering.gtkw"
+[timestart] 0
+[size] 1920 973
+[pos] -1 -1
+*-18.097668 690000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Wrapper_tb.
+[treeopen] Wrapper_tb.CPU.
+[sst_width] 288
+[signals_width] 202
+[sst_expanded] 1
+[sst_vpaned_height] 285
+@28
+Wrapper_tb.CPU.clock
+@24
+[color] 1
+Wrapper_tb.CPU.PC[31:0]
+Wrapper_tb.CPU.FD_PC_out[31:0]
+@28
+Wrapper_tb.CPU.FD_IR_out[31:0]
+@24
+Wrapper_tb.CPU.DX_PC_out[31:0]
+@28
+Wrapper_tb.CPU.DX_IR_out[31:0]
+@24
+Wrapper_tb.CPU.DX_A_out[31:0]
+Wrapper_tb.CPU.DX_B_out[31:0]
+@28
+Wrapper_tb.CPU.multdiv_stall
+Wrapper_tb.CPU.stall
+Wrapper_tb.CPU.ctrl_mult
+Wrapper_tb.CPU.dx_is_r_type
+[color] 1
+Wrapper_tb.CPU.multdiv_input_latch.multdiv_stall
+Wrapper_tb.CPU.multdiv_RDY
+Wrapper_tb.CPU.multdiv_unit.data_resultRDY
+Wrapper_tb.CPU.multdiv_input_latch.result_RDY
+Wrapper_tb.CPU.multdiv_unit.ctrl_MULT
+Wrapper_tb.CPU.multdiv_unit.mult_rdy
+Wrapper_tb.CPU.multdiv_input_latch.ctrl_multdiv
+Wrapper_tb.CPU.multdiv_unit.ctrl_DIV
+Wrapper_tb.CPU.ctrl_div
+Wrapper_tb.CPU.multdiv_unit.div_exception
+Wrapper_tb.CPU.multdiv_unit.div_reset
+@24
+Wrapper_tb.CPU.multdiv_unit.div_result[31:0]
+@28
+Wrapper_tb.CPU.multdiv_unit.ctrl_DIV
+Wrapper_tb.CPU.multdiv_unit.div_exception
+@29
+Wrapper_tb.CPU.multdiv_unit.div_rdy
+@28
+Wrapper_tb.CPU.multdiv_unit.div_reset
+@22
+Wrapper_tb.CPU.multdiv_unit.div_result[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
