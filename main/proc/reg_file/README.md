@@ -10,5 +10,3 @@ Decoders take these 5-bit addresses and translate them into a 32-bit bus. For th
 The decoders taking in readRegA and readRegB addresses also output to 32-bit buses where only one of the wires can be on at once. Each wire in the bus feeds into the enable of a tristate-buffer with its input connected to the output of one of the registers. This effectively acts as an output enable, selecting which register's outputs get read by the register file while restricting all the others. 
 
 Every register except register 0 can be written to. Register 0 ignores any attempts to write data into it and always outputs 32'b0 when read. 
-
-## Bugs
