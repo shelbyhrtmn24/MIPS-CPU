@@ -1,5 +1,4 @@
 nop 	                    # Simple jal test case
-nop                         # Author: Unknown, Modified by Will Denton
 nop 
 nop 
 nop
